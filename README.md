@@ -1,2 +1,2 @@
 # Supan14.github.io
-My CV
+My CV (updated)
