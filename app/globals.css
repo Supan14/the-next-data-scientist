@@ -6,4 +6,19 @@
   .text-edge-outline {
     -webkit-text-stroke: 1px rgba(255,255,255,0.3);
   }
-} 
+}
+
+.animated-container {
+  position: absolute;
+  top: 50%; /* Initial position */
+  left: 50%; /* Initial position */
+  transform: translate(-50%, -50%); /* Center the div */
+  transition: top 10s ease-in-out; /* Apply transition to top property */
+}
+
+h1.decrease { font-size: 2rem; }
+h2.decrease { font-size: 1.8rem; }
+h3.decrease { font-size: 1.6rem; }
+h4.decrease { font-size: 1.4rem; }
+h5.decrease { font-size: 1.2rem; }
+h6.decrease { font-size: 1rem; }

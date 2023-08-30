@@ -37,10 +37,11 @@ const config: Config = {
           "radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        "fade-in": "fade-in 3s ease-in-out forwards",
-        title: "title 5s ease-out forwards",
-        "fade-left": "fade-left 3s ease-in-out forwards",
-        "fade-right": "fade-right 3s ease-in-out forwards",
+        "fade-in": "fade-in 2s ease-in-out forwards",
+        title: "title 2s ease-out forwards",
+        "fade-left": "fade-left 2s ease-in-out forwards",
+        "fade-right": "fade-right 2s ease-in-out forwards",
+        "title-top": "title-top 2s ease-in-out forwards" 
       },
       keyframes: {
         "fade-in": {
@@ -101,6 +102,14 @@ const config: Config = {
             opacity: "100%",
           },
         },
+        "title-top": {
+          "0%": {
+            transform: "translateY(-10%)",
+          },
+          "100%": {
+            transform: "translateY(0%)",
+          }
+        }
       },
     },
   },
